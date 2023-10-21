@@ -63,19 +63,8 @@ function QuizApp() {
               <h2>{currentQuestionData.statement}</h2>
             </div>
 
-            {/* <div className="answers">
-              {currentQuestionData.options.map((option, index) => (
-                <div className="answer-wrapper" key={index}>
-                  <button
-                    className={`btn btn-primary answer ${selectedOption === option ? 'selected' : ''}`}
-                    
-                    onClick={() => ClickedOption(option)}
-                  >
-                    {option}
-                  </button>
-                </div>
-              ))}
-            </div> */}
+            
+            
             <div className="answers">
               {currentQuestionData.options.map((option, index) => (
                 <div className="answer-wrapper" key={index}>

@@ -35,7 +35,7 @@ body {
 }
 
 .answer {
-  width: 300px; /* Fixed button width */
+  width: 300px; 
   padding: 10px;
   background-color: #f0f0f000;
   color: #fff;
@@ -70,8 +70,8 @@ body {
 }
 
 .progress-bar {
-  width: 10%; /* Update this value as the quiz progresses */
-  background-color: #ffb703; /* Highlight color for the progress bar */
+  width: 10%; 
+  background-color: #ffb703; 
 }
 
 .question-count {
