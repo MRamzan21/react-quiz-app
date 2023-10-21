@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "statement": "What is the capital of Pakistan?",
+      "options": ["Lahore", "Islamabad", "Karachi", "Rawalpindi"],
+      "answer": "Islamabad"
+    },
+    {
+      "id": 2,
+      "statement": "Which river is the longest in Pakistan?",
+      "options": ["Chenab", "Sutlej", "Jhelum", "Indus"],
+      "answer": "Indus"
+    },
+    {
+      "id": 3,
+      "statement": "Who is the founder of Pakistan?",
+      "options": ["Allama Iqbal", "Liaquat Ali Khan", "Benazir Bhutto", "Muhammad Ali Jinnah"],
+      "answer": "Muhammad Ali Jinnah"
+    },
+    {
+      "id": 4,
+      "statement": "Pakistan became an independent nation in which year?",
+      "options": ["1947", "1956", "1962", "1971"],
+      "answer": "1947"
+    }
+  ]
+  
