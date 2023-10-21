@@ -91,7 +91,10 @@ body {
   background: #ffdead00;
 }
 
-
+.disabled{
+  background: rgba(255, 255, 255, 0) !important;
+  color: rgba(255, 255, 255, 0.575);
+}
 
 
 .correct-answer {
