@@ -15,7 +15,6 @@ function QuizApp() {
     const audio = new Audio(correctAudioFile);
     audio.play();
   };
-
   const playWrongSound = () => {
     const audio = new Audio(wrongAudioFile);
     audio.play();
@@ -62,8 +61,6 @@ function QuizApp() {
             <div className="question">
               <h2>{currentQuestionData.statement}</h2>
             </div>
-
-            
             
             <div className="answers">
               {currentQuestionData.options.map((option, index) => (

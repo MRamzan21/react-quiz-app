@@ -104,3 +104,44 @@ body {
 .wrong-answer {
   background-color: #f44336 !important; 
 }
+
+@media (max-width: 768px) {
+  .quiz-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+
+  .answers {
+    margin-top: 10px;
+  }
+
+  .answer {
+    width: 18.75rem;
+    font-size: 16px;
+  }
+
+  .controls {
+    margin-top: 10px;
+  }
+
+  .progress-bar {
+    width: 10%;
+  }
+
+  .question-count {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .next-btn {
+    font-size: 16px;
+  }
+}
